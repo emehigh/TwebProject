@@ -1,0 +1,7 @@
+package com.mobylab.springbackend.exception;
+
+public class UserAlreadyExistsException extends RuntimeException {
+    public UserAlreadyExistsException(String message) {
+        super(message);
+    }
+}
